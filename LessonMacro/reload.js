@@ -1,4 +1,4 @@
-var ids = [2480];
+var ids = []; // [1234, 2345] 식으로 id넣어놓으면 됨.
 var lists = document.querySelectorAll("table tbody table tbody tr table tbody table tr td table tbody tr");
 for (var  i = 0;i < lists.length;i ++) {
 	var a = lists[i].querySelector("td font a");
